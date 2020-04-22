@@ -65,12 +65,12 @@ function Welcome() {
                         <li><a href="https://www.notion.so/The-Labs-Rubrics-64eae46cf3ec43b88e1d4c761698a947">Lab Rubric</a></li>
                         <li><a href="https://www.notion.so/Mission-Control-3d160a20e5374bccaec96576398d54ba">PVD(Product Vision Document)</a></li>
                         <li><a href="https://www.notion.so/e05ae1ae85ba4ac9bcc23087f7db7572?v=55324fde100e48e7a4b77531ec1815a2">Release Canvas</a></li>
-                        <li><a href="https://drive.google.com/file/d/1lJdwda5o8OsNoYcwZQ4fovmyM3bVuhdi/view">Arhectecture Design</a></li>
+                        <li><a href="https://drive.google.com/file/d/1lJdwda5o8OsNoYcwZQ4fovmyM3bVuhdi/view">Architecture Design</a></li>
                         <li><a href="https://drive.google.com/file/d/1lJdwda5o8OsNoYcwZQ4fovmyM3bVuhdi/view">Code Climate Documents</a></li>
                         <li><a href="https://lambda-school-labs.github.io/labs-guides/">Lab Guide</a></li>
                         <li><a href="https://www.notion.so/Mission-Control-Data-Model-165d192d6fb24b6fb51407f6952276ee">MC Data Model</a></li>
 
-                        <li><a href="https://www.notion.so/Competitor-Research-41c82ad87703494284c0f25d050789d7">Competitor Research</a></li>
+                        <li><a href="https://www.notion.so/Competitor-Research-41c82ad87703494284c0f25d050789d7">Competition Research</a></li>
                         <li><a href="https://www.notion.so/User-Research-dbfb303aeb7a4bff92add72564e37a01">User Research</a></li>
                         <li><a href="https://www.notion.so/Technical-Research-535ecb2895064e14a484fe63a56d7cc0">Tech Research</a></li>
                     </ul>
@@ -98,7 +98,7 @@ Mission Control is the Lambda Labs equivalent of an aircraft cockpit user interf
                         <ul>
                             <li><a href="https://trello.com/b/NCmsFWo6/labs-23-mission-control">Tello Board</a></li>
 
-                            <li><a href="https://github.com/Dlray89/basicsearchwithbackend">Pracice Hub</a></li>
+                            <li><a href="https://github.com/Dlray89/basicsearchwithbackend">Practice Hub</a></li>
                             <li><a href="https://material-ui.com/">Material-UI</a></li>
                             <li><a href="https://lambda-school-labs.github.io/prismadocia/">Prismatopia</a></li>
                             <li><a href="https://stage.missionctrl.dev/">Mission Control-Website</a></li>
