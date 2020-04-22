@@ -1,5 +1,6 @@
 import React from "react"
 import { Typography, makeStyles } from "@material-ui/core"
+import Expand from "./expandPanel"
 
 const useStyles = makeStyles({
     root: {
@@ -30,7 +31,7 @@ const useStyles = makeStyles({
         width: "50%",
         margin: "0 auto",
         textAlign: "center",
-        background: "linear-gradient(to right, #4b6cb7, #182848)",
+        background: "white",
         color: "white"
 
     },
@@ -78,19 +79,8 @@ function Welcome() {
                 <div className={classes.mission}>
                     <iframe className={classes.Video} width="665" height="315" title="Mission" src="https://www.youtube.com/embed/hsK-H76QENw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                    <Typography style={{padding: "2%"}} variant="body1">
-                        Commercial airline pilots require a carefully designed interface to monitor and control the complex machinery that allow modern aircraft to safely navigate the globe. This interface provides the information pilots need, when they need it, in order to keep the aircraft flying safely.
-
-Behind this interface, aircraft systems are heavily automated, with sensors ingesting data and driving precise changes to various systems to relieve the human pilots of the thousands of adjustments that need to be made every minute to keep the aircraft stable.
-
-Much like the operation of a modern aircraft, Lambda Labs is a fast paced, constantly changing and evolving environment. The Labs Cycle, while routine at a high level, is filled with many detailed actions that need to be executed efficiently and accurately to keep the program running smoothly. In addition, there are many different inputs that require attention, but relatively few human pilots to respond.
-
-The Lambda Labs Control Plane is a system for allowing a small number Labs Staff to run Labs smoothly even when faced with a complexity and scale. Much like the systems in a modern aircraft, the Lambda Labs Control Plane is made up of a user interface, sensors and an automation system.
-
-The cockpit of a modern aircraft has an interface that is carefully designed to provide just enough real-time information to pilots so they can focus on the most critical aspects of controlling the aircraft. Too little information, too much information or the wrong information at the wrong time are all crucial design considerations that can affect a pilot's ability to control the complex machinery.
-
-Mission Control is the Lambda Labs equivalent of an aircraft cockpit user interface. It provides a heads up view of the critical information Labs Staff needs to keep the Labs Cycle rolling ahead smoothly. Mission Control also provides the necessary input mechanisms to allow Labs Staff to control the Labs Cycle as it progresses from Labs Kickoff (takeoff) to Labs Demo Day (landing).
-                    </Typography>
+              <Expand />
+                    
                 </div>
                 <div className={classes.Tools}>
                     <Typography>

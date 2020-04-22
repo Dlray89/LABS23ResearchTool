@@ -50,13 +50,13 @@ function TechDocs(){
                 Tech Documents
             </Typography>
 
-            <Typography className={classes.React} variant="h4"><a className={classes.Links} href="https://reactjs.org/">React</a></Typography>
+            <Typography className={classes.React} variant="h6"><a className={classes.Links} href="https://reactjs.org/">React</a></Typography>
 
-            <Typography className={classes.Apollo}  variant="h4"><a href="https://www.apollographql.com/docs/" className={classes.Links}>Apollo</a></Typography>
+            <Typography className={classes.Apollo}  variant="h6"><a href="https://www.apollographql.com/docs/" className={classes.Links}>Apollo</a></Typography>
 
-            <Typography className={classes.GraphQL} variant="h4"><a href="https://graphql.org/" className={classes.Links}>GraphQL</a></Typography>
+            <Typography className={classes.GraphQL} variant="h6"><a href="https://graphql.org/" className={classes.Links}>GraphQL</a></Typography>
 
-            <Typography className={classes.Prisma} variant="h4"><a href="https://www.prisma.io/docs/" className={classes.Links}>Prisma</a></Typography>
+            <Typography className={classes.Prisma} variant="h6"><a href="https://www.prisma.io/docs/" className={classes.Links}>Prisma</a></Typography>
         </div>
     )
 }
