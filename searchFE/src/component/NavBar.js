@@ -29,7 +29,7 @@ function NavBar (){
                     LABS 23
                 </Typography>
                 <Button className={classes.Button}><Link className={classes.Links} to="/">Home</Link></Button>        
-                <Button className={classes.Button}><Link className={classes.Links} to="/React">Tech Docs</Link></Button>
+                <Button className={classes.Button}><Link className={classes.Links} to="/techtool">Tech Docs</Link></Button>
             </Toolbar>
             </AppBar>
 

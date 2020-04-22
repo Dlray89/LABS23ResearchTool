@@ -38,7 +38,6 @@ const useStyles = makeStyles({
         color: "White",
     },
     Links: {
-        textDecoration: "none",
         color:"white",
     }
 })
